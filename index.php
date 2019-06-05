@@ -39,7 +39,7 @@
                     <thead>
                         <tr>
                             <th>Título</th>
-                            <th>Descrición</th>
+                            <th>Descripción</th>
                             <th class="d-none d-md-block">Creación</th>
                             <th>Acciones</th>
                         </tr>
