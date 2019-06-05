@@ -25,7 +25,11 @@
 
 <nav class="navbar navbar-dark bg-dark">
     <div class="container">
-        <a href="index.php" class="navbar-brand">Task List</a>
+        <a href="/" class="navbar-brand">Task List</a>
+        <div class="badge badge-light">
+            <a target="_blank" href="//github.com/macarenasub" class="text-dark"> &copy; Macarena Ugarte</a>
+        </div>
+
     </div>
 
 </nav>

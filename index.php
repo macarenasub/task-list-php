@@ -6,7 +6,7 @@
 
     <div class="row">
     
-        <div class="col-md-4  mb-4">
+        <div class="col-md-4 mb-4">
 
             <?php if(isset($_SESSION['message'])) { ?> <!-- Mensaje de guardado-->
                 <div class="alert alert-<?=$_SESSION['message_type']; ?> 
@@ -40,7 +40,7 @@
                         <tr>
                             <th>Título</th>
                             <th>Descripción</th>
-                            <th class="d-none d-md-block">Creación</th>
+                            <th class="d-none d-sm-table-cell">Creación</th>
                             <th>Acciones</th>
                         </tr>
                     </thead>
@@ -53,7 +53,7 @@
                             <tr>
                                 <td><?php echo $row['title'] ?></td>
                                 <td><?php echo $row['description'] ?></td>
-                                <td class="d-none d-md-block"><?php echo $row['created_at'] ?></td>
+                                <td class="d-none d-sm-table-cell"><?php echo $row['created_at'] ?></td>
                                 <td>
                                     <a href="edit.php?id=<?php echo $row['id']?>" 
                                     class= "btn btn-secondary">
