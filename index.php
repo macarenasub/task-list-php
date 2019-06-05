@@ -6,7 +6,7 @@
 
     <div class="row">
     
-        <div class="col-md-4">
+        <div class="col-md-4  mb-4">
 
             <?php if(isset($_SESSION['message'])) { ?> <!-- Mensaje de guardado-->
                 <div class="alert alert-<?=$_SESSION['message_type']; ?> 
